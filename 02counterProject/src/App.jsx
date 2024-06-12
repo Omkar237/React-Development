@@ -11,9 +11,9 @@ function App() {
       console.log("Maximum value 20")
     }else{
       setCounter(prevCounter => prevCounter + 1)
-      setCounter(prevCounter => prevCounter + 1)
-      setCounter(prevCounter => prevCounter + 1)
-      setCounter(prevCounter => prevCounter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
 
     }
   }
